@@ -8,30 +8,87 @@
 
   </head>
   <body class="body">
+    <div class="background">
     <div id="root"></div>
+  </div>
   </body>
 </html>
 
 <style>
 
-  h1{
+  h2, p{
+    color: #ffff;
+  }
+
+  input{
+    margin: 2%;
+    background-color: #0e232c;
+    border: none;
+    border-radius: 6px;
+    padding: 2px;
+  }
+  input:hover{
+    background-color: #0C7075;
+    box-shadow: #0C7075 2px 2px 20px;
+    color: #0C7075;
+  }
+
+  .inputs{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .aling{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container-main{
+    display: table;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    width: 80vh;
+    max-width: 90vw;
+    background-color: #05161A;
+    border-radius: 70px;
+  }
+
+  .first-content,
+   .second-content{
+    width: 50%;
+    height: 100%;
     text-align: center;
-    margin: -10% 0% 10%;
-    color: #fdfdfd;
-    text-shadow: #000 1px 1px 3px;
+    vertical-align: middle;
+    display: table-cell;
+  }
+  
+  .second-content{
+    background-color: #072e33;
+    border-radius: 20px;
+    width: 50%;
   }
 
   .btn{
-    width: 90%;
-    padding: 0.8em;
-    margin-top: 10%;
-    background-color: #111;
+    background-color: #294d6141;
     border: none;
+    margin-top: 5%;
   }
   .btn:hover{
-    background-color: #222;
-    box-shadow: rgb(0, 0, 0) 7px 7px 30px;
-    filter: blur(1);
+    background-color: #0C7075;
+    box-shadow: #0C7075 2px 2px 20px;
+  }
+
+  a{
+    font-size: 13px;
+    margin: 2%;
+    color: aliceblue;
+  }
+  a:hover{
+    color: #385e70;
   }
 
   body{
@@ -40,6 +97,14 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-image:linear-gradient(#5e3b1e, #533c5c);
+    width: 100vw;
+    background-image: radial-gradient(#101213, #0b2a31);
   }
+
+  svg{
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 20px;
+  }
+
 </style>
