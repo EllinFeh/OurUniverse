@@ -10,6 +10,8 @@
     "react-dom": "^18.2.0",
     "react-redux": "^8.1.2",
     "react-scripts": "^5.0.1",
+    "styled-components": "^6.0.8",
+    "the-new-css-reset": "^1.11.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
