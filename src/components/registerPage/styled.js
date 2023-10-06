@@ -3,17 +3,29 @@ import styled from "styled-components";
 
 export const Flex = styled.div`
 display: flex;
-gap: 5%;
 text-align: center; 
 
 @media (max-width: 600px){
-    display: block;
+    flex-direction: column;
 }
 
 .Content-Two{
+    margin: 1em ;
     display: flex;
     justify-content: center;
+
+    p{
+        font-size: 1.2em;
+    }
 }
+
+.Content-One{
+    margin: 1em ;
+    display: flex;
+    justify-content: center;
+
+}
+
 
 h2{
     font-size: 2.5em;
@@ -43,22 +55,33 @@ export const Column = styled.div`
 display: flex;
 flex-direction: column;
 justify-content: center;
-margin: 2em ;
 text-align: center;
 
+
+input::placeholder { color: #dab2ff}
+
 input{
-    margin-bottom: 2%;
-    background-color: #dab2ff80;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
     border-radius: 8px;
-    border: none;
+    outline: 0;
+
+    text-color: #dab2ff;
+    margin-bottom: 1em;
+    background: #7d659c80;
+    border-bottom: solid 2px #dab2ff;
+    padding: 0.6em;
 }
 `
 
-export const Astrounaut = styled.div`
-.AstronautImage{
-    width: 290px;
-    height: 350px;
-}
+export const Button = styled.button`
+color: #dab2ff;
+border: solid 2px #dab2ff;
+border-radius: 10px;
+background: none;
+padding: 0.8em;
+width: 10em;
+
 `
 
 

@@ -1,6 +1,4 @@
-import { createGlobalStyle } from "styled-components";
 
-export const ResetCSS = createGlobalStyle`
 /*! destyle.css v4.0.0 | MIT License | https://github.com/nicolas-cusan/destyle.css */
 
 /* Reset box-model and set borders */
@@ -38,16 +36,6 @@ html {
 /**
  * Remove the margin in all browsers.
  */
-
-body {
-  background: linear-gradient(90deg, rgba(6,29,59,1) 0%, rgba(48,74,159,1) 50%, rgba(74,60,190,1) 100%);;
-  margin: 0;
-  color: #ffffff;
-  font-family: Roboto, sans-serif;
-  user-select: none;
-
-}
-
 
 
 main {
@@ -412,5 +400,5 @@ th {
   text-align: left;
   font-weight: bold;
 }
-`
+
 

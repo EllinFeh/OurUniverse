@@ -2,6 +2,7 @@
 <html lang="pt-br">
 
 <head>
+  <link rel="stylesheet" href="../src/global/resetCSS.css">
   <meta charset="utf-8" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,7 +24,7 @@
 
   body {
     font-family: 'Exo 2', sans-serif;
-    background: linear-gradient(45deg,#000e29, #483078, #906090);
+    background: linear-gradient(45deg,#000e29, #483078);
     background-size: 300% 300%;
     height: 100vh;
     display: flex;
@@ -31,7 +32,7 @@
     justify-content: center;
     color: #dab2ff; 
     animation: backgroundAnim 5s ease infinite;
-   
+    user-select: none;
   }
 
   @keyframes backgroundAnim {
