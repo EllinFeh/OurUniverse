@@ -1,6 +1,5 @@
 import styled from "styled-components";
 
-
 export const Flex = styled.div`
 display: flex;
 text-align: center; 
@@ -23,7 +22,6 @@ text-align: center;
     margin: 1em ;
     display: flex;
     justify-content: center;
-
 }
 
 
@@ -57,6 +55,21 @@ flex-direction: column;
 justify-content: center;
 text-align: center;
 
+a{
+    text-decoration: none;
+    color: #a94dff;
+    font-weight: 500;
+
+    
+}
+a:hover{
+    color: #dab2ff;
+}
+
+#passwInput{
+    margin-bottom: 5px;
+}
+
 
 input::placeholder { color: #dab2ff}
 
@@ -81,7 +94,7 @@ border-radius: 10px;
 background: none;
 padding: 0.8em;
 width: 10em;
-
+margin-top: 15%;
 `
 
 

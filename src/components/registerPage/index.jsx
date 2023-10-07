@@ -34,8 +34,9 @@ function RegisterPage() {
                                         </label>
 
                                         <label for="">
-                                            <input type="password" placeholder="Senha" />
+                                            <input id="passwInput" type="password" placeholder="Senha" />
                                         </label>
+                                        <span> <a href="">Já tem uma conta?</a></span>
                                     </S.Column>
 
                                     <S.Button>Registrar</S.Button>

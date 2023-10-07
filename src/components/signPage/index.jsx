@@ -1,6 +1,6 @@
 import React from "react";
 
-function SignPage() {
+const SignPage = () => {
     return (
             <div className="content second-content">
                 <div className="first-column">

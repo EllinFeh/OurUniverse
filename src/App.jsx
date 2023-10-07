@@ -1,11 +1,13 @@
 import React from "react";
-import RegisterPage from "./components/registerPage";
+import GlobalStyle from "./global/ResetCss";
+import RoutesApp from "./routes/index"
 
 function App() {
   return (
-    <div>
-      <RegisterPage/>
-    </div>
+    <>
+    <RoutesApp />
+    <GlobalStyle />
+    </>
 
 
   );
