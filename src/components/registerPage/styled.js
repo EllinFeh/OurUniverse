@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
 export const Flex = styled.div`
+//container principal
+
 display: flex;
 text-align: center; 
 
@@ -9,21 +11,30 @@ text-align: center;
 }
 
 .Content-Two{
-    margin: 1em ;
+
+    margin: 5em ;
     display: flex;
     justify-content: center;
 
     p{
         font-size: 1.2em;
     }
+
+    @media (max-width: 600px){
+        margin: 1em ;
+    }
 }
 
 .Content-One{
-    margin: 1em ;
+
+    margin: 5em ;
     display: flex;
     justify-content: center;
-}
 
+    @media (max-width: 600px){
+        margin: 1em ;
+    }
+}
 
 h2{
     font-size: 2.5em;
@@ -50,6 +61,7 @@ span{
 `
 
 export const Column = styled.div`
+
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -59,15 +71,9 @@ a{
     text-decoration: none;
     color: #a94dff;
     font-weight: 500;
-
-    
 }
 a:hover{
     color: #dab2ff;
-}
-
-#passwInput{
-    margin-bottom: 5px;
 }
 
 
@@ -83,7 +89,9 @@ input{
     margin-bottom: 1em;
     background: #7d659c80;
     border-bottom: solid 2px #dab2ff;
-    padding: 0.6em;
+    padding: 0.5em 1em;
+    width: 14em;
+    
 }
 `
 

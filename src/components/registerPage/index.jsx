@@ -19,35 +19,34 @@ function RegisterPage() {
                 </div>
 
                 <div className="Content-Two">
+
                     <S.Column>
-                        
+                        <form action="">
                             <p>Crie uma conta:</p>
-                            <form action="">
-                                <div>
-                                    <S.Column>
-                                        <label for="">                                    
-                                            <input type="text" placeholder="Nome" />
-                                        </label>
+                            <div>
+                                <S.Column>
+                                    <label for="">
+                                        <input type="text" placeholder="Nome" />
+                                    </label>
 
-                                        <label for="">                                
-                                            <input type="email" placeholder="Email" />
-                                        </label>
+                                    <label for="">
+                                        <input type="email" placeholder="Email" />
+                                    </label>
 
-                                        <label for="">
-                                            <input id="passwInput" type="password" placeholder="Senha" />
-                                        </label>
-                                        <span> <a href="">Já tem uma conta?</a></span>
-                                    </S.Column>
+                                    <label for="">
+                                        <input id="passwInput" type="password" placeholder="Senha" />
+                                    </label>
+                                    <span> <a href="/">Já tem uma conta?</a></span>
+                                </S.Column>
 
-                                    <S.Button>Registrar</S.Button>
-                                </div>
-                            </form>
-                        
+                                <S.Button>Registrar-se</S.Button>
+                            </div>
+                        </form>
+
                     </S.Column>
                 </div>
 
             </S.Flex>
-
 
         </>
     );
