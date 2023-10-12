@@ -1,10 +1,12 @@
 import styled from "styled-components";
 
 export const Flex = styled.div`
-//container principal
 
+//container principal
 display: flex;
 text-align: center; 
+background-color: #20152e;
+border-radius: 50px;
 
 @media (max-width: 600px){
     flex-direction: column;
@@ -12,7 +14,7 @@ text-align: center;
 
 .Content-Two{
 
-    margin: 5em ;
+    margin: 3em ;
     display: flex;
     justify-content: center;
 
@@ -27,7 +29,7 @@ text-align: center;
 
 .Content-One{
 
-    margin: 5em ;
+    margin: 3em ;
     display: flex;
     justify-content: center;
 
@@ -39,7 +41,7 @@ text-align: center;
 h2{
     font-size: 2.5em;
     font-weight: 900;
-    margin-bottom: -3%;
+    margin-bottom: -1%;
 }
 
 span{
@@ -102,7 +104,7 @@ border-radius: 10px;
 background: none;
 padding: 0.8em;
 width: 10em;
-margin-top: 15%;
+margin: 5% 0 20% 0;
 `
 
 

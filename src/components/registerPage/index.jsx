@@ -1,10 +1,11 @@
 import React from "react";
-import * as S from "./styled"
+import * as S from "./styled";
+import GlobalStyle from "../../global/ResetCss";
 
-function RegisterPage() {
+const RegisterPage = () => {
     return (
         <>
-
+            <GlobalStyle backgroundColor="#12091c" />
             <S.Flex>
                 <div className="Content-One">
 
@@ -36,11 +37,10 @@ function RegisterPage() {
                                     <label for="">
                                         <input id="passwInput" type="password" placeholder="Senha" />
                                     </label>
-                                    <span> <a href="/">Já tem uma conta?</a></span>
                                 </S.Column>
-
                                 <S.Button>Registrar-se</S.Button>
                             </div>
+                            <span> <a href="/">Já tem uma conta?</a></span>
                         </form>
 
                     </S.Column>
